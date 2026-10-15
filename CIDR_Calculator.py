@@ -24,7 +24,7 @@ print("""
 
     ▸ Enter an IPv4 address with a prefix.
     ▸ Format : <IP>/<prefix>     Example : 192.168.1.0/24
-    ▸ Prefix : 0 – 32
+    ▸ Prefix : 0 _ 32
 
 """)
 

@@ -1,0 +1,113 @@
+
+      <svg
+        width="854"
+        height="300"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        style="z-index:1;position:relative"
+        viewBox="0 0 854 300"
+      >
+        <style>
+      .text {   font-size: 70px;   font-weight: 700;   font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;  } .desc {   font-size: 20px;   font-weight: 500;   font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;  } 
+      .text, .desc {   animation: fadeIn 1.2s ease-in-out forwards;  } @keyframes fadeIn {   from {     opacity: 0;   }   to {     opacity: 1;   }  } 
+    </style>
+        
+        
+      <defs>
+        <filter id="blurFilter">
+          <feGaussianBlur stdDeviation="12" />
+        </filter>
+      </defs>
+      
+          <circle 
+            cx="50%" 
+            cy="50%" 
+            r="75" 
+            fill="#EBFFD8"
+            opacity="0.2"
+            filter="url(#blurFilter)"
+            
+          >
+            <animate
+              attributeName="cx"
+              values="50%;50%;50%;50%;50%"
+              dur="10s"
+              begin="0s"
+              repeatCount="indefinite"
+              calcMode="spline"
+              keySplines="0.4 0 0.6 1; 0.4 0 0.6 1; 0.4 0 0.6 1; 0.4 0 0.6 1"
+            />
+            <animate
+              attributeName="cy"
+              values="50%;50%;50%;50%;50%"
+              dur="12s"
+              begin="0s"
+              repeatCount="indefinite"
+              calcMode="spline"
+              keySplines="0.4 0 0.6 1; 0.4 0 0.6 1; 0.4 0 0.6 1; 0.4 0 0.6 1"
+            />
+          </circle>
+        
+          <circle 
+            cx="45%" 
+            cy="50%" 
+            r="90" 
+            fill="#EBFFD8"
+            opacity="0.3"
+            filter="url(#blurFilter)"
+            
+          >
+            <animate
+              attributeName="cx"
+              values="45%;50%;55%;50%;45%"
+              dur="30s"
+              begin="1s"
+              repeatCount="indefinite"
+              calcMode="spline"
+              keySplines="0.4 0 0.6 1; 0.4 0 0.6 1; 0.4 0 0.6 1; 0.4 0 0.6 1"
+            />
+            <animate
+              attributeName="cy"
+              values="50%;50%;50%;50%;50%"
+              dur="36s"
+              begin="1s"
+              repeatCount="indefinite"
+              calcMode="spline"
+              keySplines="0.4 0 0.6 1; 0.4 0 0.6 1; 0.4 0 0.6 1; 0.4 0 0.6 1"
+            />
+          </circle>
+        
+          <circle 
+            cx="60%" 
+            cy="50%" 
+            r="84.00000000000001" 
+            fill="#EBFFD8"
+            opacity="0.15"
+            filter="url(#blurFilter)"
+            
+          >
+            <animate
+              attributeName="cx"
+              values="60%;50%;40%;50%;60%"
+              dur="15s"
+              begin="2s"
+              repeatCount="indefinite"
+              calcMode="spline"
+              keySplines="0.4 0 0.6 1; 0.4 0 0.6 1; 0.4 0 0.6 1; 0.4 0 0.6 1"
+            />
+            <animate
+              attributeName="cy"
+              values="50%;50%;50%;50%;50%"
+              dur="18s"
+              begin="2s"
+              repeatCount="indefinite"
+              calcMode="spline"
+              keySplines="0.4 0 0.6 1; 0.4 0 0.6 1; 0.4 0 0.6 1; 0.4 0 0.6 1"
+            />
+          </circle>
+        
+    
+         <text text-anchor="middle" dominant-baseline="middle" x="50%" y="50%" class="text" style="fill:#1591DC;paint-order:stroke fill;" stroke="#FFF8DE" stroke-width="10" >CIDR Calculator  •  IPv4</text>
+        
+      </svg>
+    
